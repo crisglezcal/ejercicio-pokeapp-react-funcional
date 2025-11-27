@@ -1,0 +1,11 @@
+App --> App.jsx
+    Header --> Header.jsx
+        Nav -- > Nav.jsx
+    Main   --> Main.jsx
+        SearchContainer --> SearchContainer.jsx
+            Search --> Search.jsx
+            PokemonList --> PokemonList.jsx
+                PokemonCard--> PokemonCard.jsx
+        PokemonForm --> PokemonForm.jsx 
+        PokemonDetails --> PokemonDetails.jsx
+    Footer --> Footer.jsx
