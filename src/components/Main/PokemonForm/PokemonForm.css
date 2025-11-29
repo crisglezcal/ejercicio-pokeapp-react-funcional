@@ -1,0 +1,194 @@
+/* PokemonForm - Mobile First */
+.pokemon-form-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+  min-height: calc(100vh - 60px);
+}
+
+.pokemon-form-container h1 {
+  text-align: center;
+  color: #2a4a7a;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  font-size: 1.5rem;
+}
+
+.pokemon-form {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid #ffcb05;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+  color: #2a4a7a;
+  font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #3d7dca;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #ffcb05;
+  box-shadow: 0 0 4px rgba(255, 203, 5, 0.5);
+}
+
+.error {
+  color: #e53935;
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(135deg, #3d7dca 0%, #2a4a7a 100%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  border: 2px solid #ffcb05;
+}
+
+.submit-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Media Query para Tablet (768px en adelante) */
+@media (min-width: 768px) {
+  .pokemon-form-container {
+    max-width: 450px;
+    padding: 25px;
+    min-height: calc(100vh - 80px);
+  }
+
+  .pokemon-form-container h1 {
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+  }
+
+  .pokemon-form {
+    padding: 25px;
+    border-radius: 14px;
+    border: 3px solid #ffcb05;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
+  }
+
+  .form-group {
+    margin-bottom: 18px;
+  }
+
+  .form-group label {
+    margin-bottom: 5px;
+    font-size: 1rem;
+  }
+
+  .form-group input,
+  .form-group select {
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 15px;
+  }
+
+  .form-group input:focus,
+  .form-group select:focus {
+    box-shadow: 0 0 5px rgba(255, 203, 5, 0.5);
+  }
+
+  .error {
+    font-size: 13px;
+    margin-top: 5px;
+  }
+
+  .submit-btn {
+    padding: 12px;
+    border-radius: 7px;
+    font-size: 17px;
+  }
+
+  .submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Media Query para Ordenador (1024px en adelante) */
+@media (min-width: 1024px) {
+  .pokemon-form-container {
+    max-width: 500px;
+    padding: 30px;
+    min-height: calc(100vh - 100px);
+  }
+
+  .pokemon-form-container h1 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+
+  .pokemon-form {
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+  }
+
+  .form-group input,
+  .form-group select {
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+
+  .form-group input:focus,
+  .form-group select:focus {
+    box-shadow: 0 0 5px rgba(255, 203, 5, 0.5);
+  }
+
+  .error {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .submit-btn {
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 18px;
+  }
+
+  .submit-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  }
+}

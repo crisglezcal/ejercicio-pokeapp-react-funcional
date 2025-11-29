@@ -1,0 +1,29 @@
+/* PokemonList - Mobile First */
+.pokemon-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 15px 10px;
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: calc(100vh - 100px);
+}
+
+/* Media Query para Tablet (768px en adelante) */
+@media (min-width: 768px) {
+  .pokemon-list-container {
+    gap: 16px;
+    padding: 20px 15px;
+    max-width: 900px;
+  }
+}
+
+/* Media Query para Ordenador (1024px en adelante) */
+@media (min-width: 1024px) {
+  .pokemon-list-container {
+    gap: 20px;
+    padding: 25px 20px;
+    max-width: 1200px;
+  }
+}

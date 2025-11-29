@@ -1,16 +1,46 @@
-# React + Vite
+# 🎮 Ejercicio - PokeApp React Funcional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación mobile first y responsive para explorar y gestionar tu colección de Pokémon, desarrollada con React y Vite
 
-Currently, two official plugins are available:
+![PokeApp Screenshot](./assets/captura.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Características
 
-## React Compiler
+- **🔍 Búsqueda de Pokémon**: Encuentra Pokémon por nombre con búsqueda en tiempo real
+- **📱 Diseño mobile first y responsive**: Optimizada para móviles, tablets y desktop
+- **🎨 Interfaz temática Pokémon**: Colores amarillos y azules inspirados en la franquicia
+- **➕ Crear nuevos Pokémon**: Añade tus propios Pokémon personalizados a la colección
+- **👀 Lista interactiva**: Visualiza todos los Pokémon con tarjetas detalladas
+- **🔄 Gestión de estado**: Context API para manejo eficiente del estado global
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+- **React 18** - Biblioteca principal de UI
+- **Vite** - Herramienta de build y desarrollo
+- **React Router DOM** - Navegación entre páginas
+- **Axios** - Cliente HTTP para peticiones a la PokeAPI
+- **CSS3** - Estilos con enfoque mobile-first y responsive design
+- **PokeAPI** - Datos completos de la Pokédex
+- **Context API** - Gestión del estado global de la aplicación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Funcionalidades Principales
+
+### Búsqueda Avanzada
+- Búsqueda en tiempo real con debounce
+- Filtrado por nombre con mínimo 3 caracteres
+- Integración con PokeAPI y Pokémon personalizados
+
+### Gestión de Pokémon
+- Visualización en tarjetas con tipos, ID e imagen
+- Creación de nuevos Pokémon personalizados
+- Almacenamiento local en contexto React
+- Navegación fluida entre lista y detalles
+
+### Diseño Responsive
+- Mobile-first approach
+- Media queries para tablet y desktop
+- Experiencia optimizada en todos los dispositivos
+- Colores temáticos
+
+## 🔗 Despliegue Netlify
+

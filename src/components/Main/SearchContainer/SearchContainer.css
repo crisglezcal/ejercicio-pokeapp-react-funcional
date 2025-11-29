@@ -1,0 +1,107 @@
+/* SearchContainer.css */
+.search-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estados de carga y error */
+.loading-state {
+  text-align: center;
+  padding: 30px;
+  margin: 20px 0;
+  background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+  border-radius: 12px;
+  border: 2px solid #ffc107;
+  box-shadow: 0 4px 12px rgba(255, 193, 7, 0.2);
+}
+
+.loading-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #856404;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.loading-spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #856404;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-state {
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+  background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+  border-radius: 12px;
+  border: 2px solid #dc3545;
+  box-shadow: 0 4px 12px rgba(220, 53, 69, 0.2);
+}
+
+.error-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #721c24;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.error-icon {
+  font-size: 18px;
+  color: #dc3545;
+}
+
+/* Resultados de búsqueda */
+.results-info {
+  text-align: center;
+  margin: 30px 0 20px 0;
+  padding: 15px;
+  background: linear-gradient(135deg, #d1ecf1 0%, #bee5eb 100%);
+  border-radius: 10px;
+  border: 2px solid #17a2b8;
+}
+
+.results-count {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0c5460;
+  margin: 0;
+}
+
+.no-results {
+  text-align: center;
+  padding: 40px 20px;
+  margin: 30px 0;
+  background: linear-gradient(135deg, #e2e3e5 0%, #d6d8db 100%);
+  border-radius: 12px;
+  border: 2px solid #6c757d;
+}
+
+.no-results-text {
+  font-size: 18px;
+  color: #495057;
+  margin: 0 0 15px 0;
+  font-weight: 500;
+}
+
+.no-results-subtext {
+  font-size: 14px;
+  color: #6c757d;
+  margin: 0;
+}

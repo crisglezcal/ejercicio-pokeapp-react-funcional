@@ -1,0 +1,41 @@
+/* Footer - Mobile First */
+.footer {
+  color: white;
+  padding: 16px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footerText {
+  font-size: 12px;
+  margin: 4px 0;
+  color: #ecf0f1;
+}
+
+/* Tablet - aún en columna */
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 20px;
+  }
+  
+  .footerText {
+    font-size: 14px;
+    margin: 6px 0;
+  }
+}
+
+/* Desktop - en fila */
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .footerText {
+    font-size: 16px;
+    margin: 0;
+  }
+}
