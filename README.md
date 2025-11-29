@@ -43,4 +43,4 @@ Aplicación mobile first y responsive para explorar y gestionar tu colección de
 - Colores temáticos
 
 ## 🔗 Despliegue Netlify
-
+https://ejercicio-pokeapp-react-funcional.netlify.app/
